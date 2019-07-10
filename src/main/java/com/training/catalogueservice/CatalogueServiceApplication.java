@@ -17,7 +17,6 @@ public class CatalogueServiceApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CatalogueServiceApplication.class, args);
-
     }
     @Bean
     CommandLineRunner start(CategoryRepository categoryRepository, ProductRepository productRepository){
